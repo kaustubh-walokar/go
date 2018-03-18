@@ -1,7 +1,7 @@
 package main 
 
 import ("fmt"
-		"github.com/kaustubh-walokar/go/node")
+		"github.com/kaustubh-walokar/node")
 
 func main() {
 	n := node.NewNode(10)
