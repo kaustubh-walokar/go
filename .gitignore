@@ -10,6 +10,7 @@
 
 pkg/
 bin/
+go/
 
 *.DS_Store
 
