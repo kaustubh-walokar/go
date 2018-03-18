@@ -5,7 +5,14 @@ import ("fmt"
 
 func main() {
 	n := node.NewNode(10)
-	fmt.Println("hello", n)
-	n.Data = 20
-	fmt.Println("hello", n)
+	l := node.NewNode(20)
+	r := node.NewNode(30)
+	m := &node.Node{40, nil, nil }
+
+	n.Right = l
+	l.Right = r
+	r.Right = m
+
+	fmt.Println("n:=", n.Print())
+	
 }
