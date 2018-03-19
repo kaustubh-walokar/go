@@ -27,5 +27,5 @@ func Print(root *Node) (string) {
 	l := Print(root.Left)
 	r := Print(root.Right)
 
-	return fmt.Sprintf("{%v %v %v}",l ,root.Data, r) 
+	return fmt.Sprintf("[%v %v %v]",l ,root.Data, r) 
 }
